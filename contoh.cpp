@@ -40,3 +40,17 @@ public:
     }
 
 };
+
+int main ()
+{
+    PersegiPanjang objekPp; //membuat object
+    Lingkaran ol;
+
+    cout << "Masukkan Panjang : ";
+    cin >> objekPp.panjang;
+
+    cout << "Masukkan Lebar : ";
+    cin >> objekPp.lebar;
+
+    cout << "Luas Persegi Panjang : " << objekPp.luasPp(objekPp.panjang, objekPp.lebar) << endl;
+}
